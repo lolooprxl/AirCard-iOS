@@ -1,7 +1,7 @@
-
-name: Build AirCard IPA
-
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
